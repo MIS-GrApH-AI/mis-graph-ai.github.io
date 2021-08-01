@@ -1,0 +1,141 @@
+navbar_entries:
+  - title: about
+    url: https://www.misociety.org/graph-working-group
+
+  - title: blog
+    url: blog
+
+
+project_entries:
+  - title: Public Repository
+    url: /Public
+    desc: Public Repository Description
+
+  - title: Credentialled Access Repository
+    url: /Credentialled_Access
+    desc: In order to access this repository, you must submit proof that you have completed the credentialling process outlind by PhysioNet
+ 
+old_project_entries:
+  - title: Food intolerance prediction
+    url: use-cases/food-intolerance
+    desc: As a nutritionist caring for a patient with a poorly defined food intolerance 
+
+  - title: New Clinical Trials
+    url: use-cases/new-clinical-trials
+    desc: What new clinical trials (or treatment or medical technology) can I recommend my patient to enroll or consider?
+
+  - title: Interactive Visual Learning Graph
+    url: use-cases/interactive-visual-learning-graph
+    desc: Design and develop clinical health assisted intelligence via an interactive visual knowledge graph
+    highlight: WIP
+
+  - title: Impact Analysis
+    url: use-cases/impact-analysis
+    desc: Impact analysis for treatment decisions based on current patient state and current treatments
+
+  - title: Recommend Plan
+    url: use-cases/recommend-plan
+    desc: Recommend plan items for a specific problem
+
+  - title: Display Problem Courses
+    url: use-cases/display-problem-courses
+    desc: Display the typical courses of a given problem over time in patients similar to the one I'm treating 
+  
+  - title: Visualize History
+    url: use-cases/visualize-history
+    desc: Visualize the history of a patient's problem 
+  
+  - title: Automated Discharge Summaries
+    url: use-cases/automated-discharge-summaries
+    desc: Automated drafting of discharge summaries 
+  
+  - title: Create Patient Summary
+    url: use-cases/create-patient-summary
+    desc: Create a running summary of the patient's problems
+  
+  - title: Unexpected Effects
+    url: use-cases/unexpected-effects
+    desc: Predict unexpected effects of interventions based on patient characteristics 
+  
+  - title: What to do next
+    url: use-cases/what-next
+    desc: What should I do next to work up this patient's problem? 
+  
+  - title: Likely Problems
+    url: use-cases/likely-problems
+    desc: Recommend which problems the patient is likely to have 
+  
+  - title: Minimize Stay
+    url: use-cases/minimize-stay
+    desc: Safely minimize length of hospital stay 
+  
+  - title: Predict Staffing
+    url: use-cases/predict-staffing
+    desc: Predict staffing needs
+  
+  - title: Bed Assigning
+    url: use-cases/bed-assignment
+    desc: Assign scarce hospital beds to those who need them the most 
+  
+  - title: Predict Transfer
+    url: use-cases/predict-transfer
+    desc: Predict which patients will be transferred to a lower level of care soon
+
+  - title: Optimize Scanner Utilization
+    url: use-cases/optimize-scanner-utilization
+    desc: Pro-actively optimize utilization of the CT scanner 
+  
+  - title: Collect Billing Info
+    url: use-cases/collect-billing-info
+    desc: Automate collection of information necessary for billing 
+
+  - title: Doctor Assignment
+    url: use-cases/doctor-assignment
+    desc: Assign each patient to the doctor who can provide the best care for that individual patient 
+  
+  - title: Medication Side Effects
+    url: use-cases/medication-side-effects
+    desc: Find out which patient problems likely come from medication side-effects or interactions 
+    
+footer_entries:
+  - title: mis-graph-ai's homepage
+    url: https://www.misociety.org/graph-working-group
+
+ 
+  - title: github
+    url: https://github.com/mis-graph-ai
+
+ 
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
