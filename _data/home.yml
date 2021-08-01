@@ -11,8 +11,8 @@ project_entries:
     url: /Public
     desc: Public Repository Description
 
-  - title: Credentialled Access Repository
-    url: /Credentialled_Access
+  - title: Credentialed Access Repository
+    url: /Credentialed_Access
     desc: In order to access this repository, you must submit proof that you have completed the credentialling process outlind by PhysioNet
  
 old_project_entries:
