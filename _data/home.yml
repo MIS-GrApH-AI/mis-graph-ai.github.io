@@ -14,6 +14,10 @@ project_entries:
   - title: Credentialed Access Repository
     url: /Credentialed_Access
     desc: In order to access this repository, you must submit proof that you have completed the credentialling process outlind by PhysioNet
+
+  - title: Awesome List
+    url: /awesome-list
+    desc: Currated list of useful material as far as AI in EHR is concerned
  
 old_project_entries:
   - title: Food intolerance prediction
