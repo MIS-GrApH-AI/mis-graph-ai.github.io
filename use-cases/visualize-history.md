@@ -9,6 +9,8 @@ layout: default
 </h1>
 </header>
 
+![Problems over time](/images/Track_problems_over_time.png)
+
 As a physician responsible for treating this patient with this problem
 
 I want to see the full history of the problem
