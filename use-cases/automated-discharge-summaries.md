@@ -14,3 +14,5 @@ As a physician responsible for discharging this patient from the hospital
 I want my discharge summaries to be automatically drafted for me
 
 so that I can save time and be sure to capture the main items relevant to this hospitalization and any follow-up the patient will need
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/18).

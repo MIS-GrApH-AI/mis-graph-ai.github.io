@@ -28,3 +28,5 @@ Possible approach:
 Acceptance criteria:
 
 - prioritize list of ongoing trials or new treatments (or recent trial data) according to value vs cost
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/7).

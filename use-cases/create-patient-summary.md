@@ -26,3 +26,5 @@ Acceptance criteria:
 - prioritize problems related to highest risk of the worst outcomes like death
 
 Contributors: Etienne Saliez, Tav Sethi, George Agyapong, Tim McLerran
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/4).

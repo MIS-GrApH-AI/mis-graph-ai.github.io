@@ -21,3 +21,5 @@ Diabetic patients receiving high-dose steroids and antibiotics subsequently deve
 specific actions to prevent the fungal infection?
 
 Contributors: Senthil Chidambaram, Tim McLerran
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/14).

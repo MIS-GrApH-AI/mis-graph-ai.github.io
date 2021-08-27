@@ -14,3 +14,5 @@ As a physician assigning new patients to hospitalists and specialists
 I want to know which physicians have historically had the best outcomes with similar patients
 
 so that each patient can be cared for by the physician who will understand them and treat them best
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/23).

@@ -16,3 +16,5 @@ As a physician responsible for treating this patient with this problem
 I want to see the full history of the problem
 
 so that I can understand the full context for the problem and where we are in the course of the problem, can question whether the problem has been appropriately diagnosed, and can avoid treatments that have already failed for this patient
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/17).

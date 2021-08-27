@@ -36,3 +36,5 @@ Acceptance criteria and considerations:
         Can use ranking mechanism to order problems/ailments with most common coming up first
 
 Contributors: Dan Rigoli
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/15).
