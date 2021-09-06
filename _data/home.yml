@@ -5,6 +5,9 @@ navbar_entries:
   - title: blog
     url: blog
 
+  - title: human-graph interface
+    url: man-graph-interface/requirement-specifications
+
 
 project_entries:
   - title: Public Repository
