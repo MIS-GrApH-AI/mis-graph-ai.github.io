@@ -14,3 +14,5 @@ As a patient administrator
 I want to know which patients are the best candidates for transfer to a lower level of care
 
 so that I can make arrangements to send them as soon as the physician's order comes through
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/24).

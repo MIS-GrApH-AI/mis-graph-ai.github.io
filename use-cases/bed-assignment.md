@@ -14,3 +14,5 @@ As a patient administrator
 I want to know which patients have the greatest need for a higher level of care when there aren't enough beds for all of them
 
 so that every patient can get the level of care most appropriate for their overall condition
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/22).

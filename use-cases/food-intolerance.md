@@ -20,3 +20,5 @@ Possible approach:
 Starting with a severely restricted diet, reintroduce foods one at a time. As intolerances to specific foods are discovered, use these as inputs to predict the minimal set of foods that will be necessary to test on the patient to define their entire set of food intolerances.
 
 Contributors: Sophie Hötzel and Danny Hötzel
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/5).

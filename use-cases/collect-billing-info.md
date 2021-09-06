@@ -14,3 +14,5 @@ As a billing specialist
 I want accurate and timely billing information from clinicians
 
 so that I can reduce time spent correcting errors and making reconciliations
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/10).

@@ -16,3 +16,5 @@ I want to know if any of the patient's characteristics (e.g. taking a drug that 
 so that I can gain the intended effect with minimal harm
 
 Contributors: Etienne Saliez, George Agyapong, Tim McLerran
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/13).

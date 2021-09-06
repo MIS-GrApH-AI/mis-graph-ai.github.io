@@ -13,3 +13,5 @@ As a physician responsible for treating this patient
 I want to know what I and other physicians have typically put in the plan for similar patients with this problem
 
 so that I can quickly draft a note and write orders without missing important treatments.
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/6).

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html
+  xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Requirements Human-interface</title>
+    <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  </head>
+  <body>
+    <h1 style="text-align:center;margin-left:auto;margin-right:auto;">Requirements
+      of Human-Graphs Interface</h1>
+    <p>Etienne Saliez, version 2021-09-01 /</p>
+    <ul>
+      <li>Introduction:
+        <ul>
+          <li>There is a need of bridges between:<br />
+            <ul>
+              <li>Humans graphs:<br />
+                <ul>
+                  <li>At one side the human mind works as a large graph of
+                    neurons with about 10**12 neurons i.e. nodes and 10**15
+                    synapses i.e. relationships.</li>
+                  <li>Medical users need very easy interface to edit graphs.
+                    Technical formulations like "cypher statements" would
+                    absolutely not be accepted.</li>
+                  <li>Humans are excellent at visual pattern recognition i.e.
+                    graphs.</li>
+                  <li>People should be encouraged at providing more structured
+                    information. May be still free text but at least in small
+                    dedicated boxes. The idea is here to reduce the need of very
+                    unstructured "natural language" analysis with all its
+                    complexity.</li>
+                </ul>
+              </li>
+              <li>Computers graphs:<br />
+                <ul>
+                  <li>At the other side computers need also graphs in order to
+                    manage complex information. </li>
+                  <li>Computer should provide very flexible and interactive
+                    graph presentations in order to be easily understood by
+                    people. </li>
+                  <li>In order to be trusted, computers must be very
+                    transparent, explaining recommended decisions step by step.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Main intended uses:
+            <ul>
+              <li>Knowledge base:
+                <ul>
+                  <li>Builders and maintainers of medical knowledge graphs which
+                    require many relationships between concepts. </li>
+                  <li>Even if Natural Language Processing of textbooks can
+                    provide a good start for knowledge bases, medical experts
+                    will remain very necessary for review and corrections.</li>
+                  <li>Teachers of medicine have to explain to their students
+                    multiple relations between concepts. They could like to use
+                    graphs in the preparation of their courses. Also expected to
+                    be useful in traing sessions.</li>
+                  <li>A knowledge base is intended to contain generic knowledge
+                    about symptoms, problems, actions, ... For example knowledge
+                    about the meaning of a lab test appear only once in the
+                    knowledge base.</li>
+                </ul>
+              </li>
+              <li>Patient record:
+                <ul>
+                  <li>During contacts with patients notes must always be
+                    registered immediately. Rather than doing that typing
+                    completely free text the idea is to try to do it in a more
+                    structured way as a graph. Of course this option require a
+                    very ergonomic interface. Some NLP could help but the goal
+                    is anyhow to create graphs.</li>
+                  <li>The expected benefit is to get instantly Assisted
+                    Intelligence from the medical knowledge base.  </li>
+                  <li>A task oriented approach in order to try to solve the
+                    problems of the patient. Problems have a central role with
+                    links to symptoms and recommended actions. This according to
+                    the "Problem Oriented Medical Record" according of L. Weed
+                    philosophy.</li>
+                  <li>Shared overview of patient's problems and related
+                    information will be also very useful for the coordination
+                    between the members of the "care team" in charge of a common
+                    patient.</li>
+                  <li>A patient record is intended to contain instances of
+                    information related to a particular patient, as problems,
+                    symptoms, treatments, .... These instances are in principle
+                    always linked to the corresponding generic knowledge. For
+                    example there may be any number of instances of lab test
+                    results found by many different patients, at different
+                    times.</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>General remarks:
+            <ul>
+              <li>This document is intended to define the desirable
+                functionalities while a separate note will look at software
+                resources. </li>
+              <li>Real time interactivity is essential in patient care.</li>
+              <li>Graphs must contain the complete information even if some
+                fields are not yet well structured.  Anyhow graphs are seen as
+                backbone or as a "kind of table of content" at the top level,
+                paying much attention to relations between main concepts
+                represented by nodes. That said nodes may contain any kind of a
+                mittle less structured information including free text comments,
+                images, or links to external documents.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Screen:
+        <ul>
+          <li>Visual graphs should be the backbone of this man-machine
+            interface. </li>
+          <li>A secondary screen space is intended to present and to update the
+            attributes of a nodes or a relations.</li>
+        </ul>
+      </li>
+      <li>Main menu:
+        <ul>
+          <li>A persistent specific small group of nodes on fixed location on
+            top of the screen.
+            <ul>
+              <li>Main commands, like seek a patient, get the problems,
+                predefined selections, get agenda, user preferences, etc...</li>
+              <li>The main menu should always be available. At least one node
+                which can be expanded to a larger set of less frequent commands.</li>
+              <li>Possibility to go back to the previous transactions. </li>
+            </ul>
+          </li>
+          <li>User preferences:
+            <ul>
+              <li>Selection of certain types of relationships.</li>
+              <li>Default selection at the opening of a patient record.</li>
+              <li>Preferred style of presentation.</li>
+              <li>...</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Selections:
+        <ul>
+          <li>Selection of a subset of the large databases. For example
+            selection in the knowledge base of one disease, of related symptoms,
+            recommended actions, ..., or in case of a patient record selection
+            of one problem with directly related information.</li>
+          <li>Zoom or un-zoom should provide more or less, from a large overview
+            to the details.</li>
+          <li>By default the active node or relation is presented with most of
+            his directly related nodes. However users may define preferences
+            about types of relations and number of levels.</li>
+        </ul>
+      </li>
+      <li>Current object:
+        <ul>
+          <li>Introduction:
+            <ul>
+              <li>The current active object may be a node or a relation,
+                presented as highlighted.</li>
+              <li>Remark: access and updates of objects will depend on the
+                current user profile and of the transaction type. The exact
+                rules will be specified in a separate document according to
+                "Role Based Access Control" principles. Typically the current
+                "care team" of the patient need access to work. For example a
+                nurse need to read the prescriptions but not to create new ones.</li>
+            </ul>
+          </li>
+          <li>Flying over:
+            <ul>
+              <li>Show temporarily the content of the node or relation in the
+                secondary window. Intended to make very easy to see quickly the
+                essential of the content.</li>
+            </ul>
+          </li>
+          <li>Activation:
+            <ul>
+              <li>Presentation of the content as above, but in a more persistent
+                way, until a save or a close.</li>
+              <li>...</li>
+            </ul>
+          </li>
+          <li>Actions on a node:
+            <ul>
+              <li>Navigation to a new selection.
+                <ul>
+                  <li>For example a new specific selection to related nodes
+                    starting from the current node,. </li>
+                  <li>Access to previous versions of the same node, if any.</li>
+                </ul>
+              </li>
+              <li>Access to the full content of the node:
+                <ul>
+                  <li>The content of node begin with a few standard information
+                    as type, date-time, responsible author, etc... and may
+                    include any kind of document, discharge letters , images,
+                    etc...</li>
+                  <li>If necessary a cursor in order to see more of a long
+                    screen page.</li>
+                  <li>Possibility to jump to related pages, even on an external
+                    server. i.e. hypertext facilities, with later come back.</li>
+                </ul>
+              </li>
+              <li>Possibility to edit the content:
+                <ul>
+                  <li>A set of fields can be proposed:
+                    <ul>
+                      <li>Some field could accept expression in natural
+                        language. Or even maybe voice converted immediately to
+                        text.</li>
+                    </ul>
+                  </li>
+                  <li>Some standard fields may be mandatory while additional
+                    fields are optional.</li>
+                </ul>
+              </li>
+              <li>Procedures and rules:
+                <ul>
+                  <li>In a medical knowledge base, it must be possible to
+                    install procedures inside nodes.</li>
+                  <li>The specification of these procedures will be discussed in
+                    an other chapter about decision procedures.</li>
+                  <li>Activation:
+                    <ul>
+                      <li>Manual in the edit window, in function of predefined
+                        changes in the attributes, by "events" coming from other
+                        procedures, ...</li>
+                    </ul>
+                  </li>
+                  <li>Consequences:
+                    <ul>
+                      <li>Possibility to activate new selections, to create new
+                        nodes and relations, to broadcast new events, ...</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Save:
+                <ul>
+                  <li>If a previous version exist of the same object exist,
+                    generate a new version.</li>
+                  <li>Previous versions should remain available on request.
+                    Indeed it must be possible to retrieve the situation as it
+                    was at a given point in time in the past. Important in the
+                    context of a team of several actors who may sometimes have
+                    different opinions. Moreover a legal requirement in order to
+                    justify a decision based on available information at that
+                    time.</li>
+                  <li>Changes in nodes could activate evaluation procedures.</li>
+                  <li>Deprecation:
+                    <ul>
+                      <li>In principle delete should never be allowed
+                        immediately.</li>
+                      <li>Relations to a nodes must have already been
+                        deprecated.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Close:</li>
+              <li>...</li>
+            </ul>
+          </li>
+          <li>Actions on a Relation: <br />
+            <ul>
+              <li>Similar to nodes here above.</li>
+              <li>Also flyover for quick inspection.</li>
+              <li>Standardization of the types of relations. A set of relations
+                types will be defined, pay</li>
+              <li>ing much attention to the difference between causal or only
+                co-occurence relations.</li>
+              <li>Weight of relations:
+                <ul>
+                  <li>Very important in evaluation procedures; In patient care
+                    uncertainties are very common and many things are never
+                    completely "yes" or "no". </li>
+                  <li>Weight representation:
+                    <ul>
+                      <li>Inside the database weights should be normalized in a
+                        scale from 0 to 1. Indeed decision procedures should be
+                        based on the best possible values.</li>
+                      <li>On visual graph by means of the thickness of arrows.</li>
+                      <li>In traditional reports the score should be rounded to
+                        adjectives, like "weak" or "strong", "not to exclude" or
+                        "certain", ...</li>
+                    </ul>
+                  </li>
+                  <li>Weight could have several factors having each their own
+                    weight. For example "degree of belief" is different from
+                    "probability". "Importance" can be seen from different point
+                    of view as life expectancy and comfort.</li>
+                  <li><br />
+                  </li>
+                </ul>
+              </li>
+              <li>Relations are to be seen as independent objects. For example
+                the author or a Relation may be different from the authors of
+                the 2 related nodes.</li>
+              <li>The same 2 nodes may have multiple relations. For example when
+                2 authors have different vision on a relation.</li>
+              <li>Relations have a direction, but traversal can be in both
+                directions.</li>
+              <li>As above changes in relations should be propagated to
+                concerned evaluation procedures.</li>
+              <li>Save or deprecate as above.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Creation of a Node:
+        <ul>
+          <li>May be created in an empty space, again depending on the
+            authorization profile of the current user.</li>
+          <li>Any new node must immediately be edited, at least with a type and
+            the mandatory attributes.</li>
+        </ul>
+      </li>
+      <li>Creation of a Relation:
+        <ul>
+          <li>Drag an arrow from one node to an other one, again depending on
+            the authorizations of the user.</li>
+          <li>Any new relation must immediately be edited, at least with the
+            mandatory attributes. </li>
+          <li>Dragging an arrow to an empty location will create a new node.</li>
+        </ul>
+      </li>
+      <li>Visual presentation:
+        <ul>
+          <li>Introduction:
+            <ul>
+              <li>In order to make a very intuitive visual interface the most
+                important types and attributes should appear in a visual way, or
+                style.</li>
+              <li>The choice of a particular style will depend on user profile
+                and preferences.</li>
+            </ul>
+          </li>
+          <li>Logical options, as:
+            <ul>
+              <li>Type,</li>
+              <li>Weight, intensity,</li>
+              <li>Probability</li>
+              <li>Degree of belief,</li>
+              <li>Author, moreover possibility of endorsement by others,</li>
+              <li>Importance,</li>
+              <li>Decay in time,</li>
+              <li>New information, novelty:
+                <ul>
+                  <li>In function of a predefined delay</li>
+                  <li>In function of what is new for the current user.</li>
+                </ul>
+              </li>
+              <li>...</li>
+            </ul>
+          </li>
+          <li>Visual options, as:
+            <ul>
+              <li>In general:
+                <ul>
+                  <li>Color</li>
+                  <li>Intensity or darkness</li>
+                  <li>Text color,</li>
+                  <li>Background color,</li>
+                  <li>Text size</li>
+                  <li>Blinking:</li>
+                  <li>Background,</li>
+                  <li>Blinking,</li>
+                  <li>Halo,</li>
+                  <li>Movements or oscillations,</li>
+                </ul>
+              </li>
+              <li>For Node:
+                <ul>
+                  <li>Size</li>
+                  <li>Shape (round, oval, square, ..)</li>
+                  <li>Border:
+                    <ul>
+                      <li>Color</li>
+                      <li>Thickness</li>
+                    </ul>
+                  </li>
+                  <li>Position in the graph, attraction or repulsion to other
+                    types of nodes. The current active node could be moved to
+                    the center of the screen.</li>
+                  <li>Inversed text and background colors,</li>
+                  <li>Moving nodes and associated relations </li>
+                  <li>Position in a virtual 3D space,</li>
+                </ul>
+              </li>
+              <li>For Relation:
+                <ul>
+                  <li>Thickness</li>
+                  <li>Direction,</li>
+                  <li>Dashed style,</li>
+                  <li>...</li>
+                </ul>
+              </li>
+              <li>...</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>..</li>
+    </ul>
+  </body>
+</html>
