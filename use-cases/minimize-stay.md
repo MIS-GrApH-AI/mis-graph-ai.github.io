@@ -14,3 +14,5 @@ As a patient
 I want to get out of the hospital as quickly as possible without endangering my health
 
 so that I can see my family and go back to normal life
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/20).

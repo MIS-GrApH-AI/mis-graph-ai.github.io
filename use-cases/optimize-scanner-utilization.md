@@ -14,3 +14,5 @@ As a CT scanner scheduler
 I want to see the forward work load
 
 so that I can ensure resourcing for peak workload and optimise rostering and machine utilisation
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/11).

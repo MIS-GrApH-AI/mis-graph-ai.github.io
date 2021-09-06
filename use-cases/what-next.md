@@ -29,3 +29,5 @@ Acceptance criteria:
 
 
 Contributors: Etienne Saliez, George Agyapong, Tim McLerran
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/12#discussion-3531914).

@@ -22,3 +22,5 @@ Examples:
 - Patient is prescribed a medication that causes atrial fibrillation, is then prescribed an anticoagulant, and then has a bleeding event. Could we identify the first drug as the cause of atrial fibrillation and discontinue it instead of adding an anticoagulant?
 
 Contributors: George Agyapong, Etienne Saliez, Tim McLerran
+
+Join the discussion [here](https://github.com/MIS-GrApH-AI/mis-graph-ai.github.io/discussions/9).
